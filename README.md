@@ -34,18 +34,18 @@ asset_api/
 
  Setup Instructions
 
-1. Clone the repo**
+1. Clone the repo
    bash
    git clone https://github.com/Kartik-Oaksol/Asset_api.git
    cd Asset_api
    
 
-2. Install dependencies**
+2. Install dependencies
    bash
    pip install -r requirements.txt
    
 
-3. Set your PostgreSQL URL**
+3. Set your PostgreSQL URL
    
    Update your `DATABASE_URL` inside your environment or config:
    
@@ -53,7 +53,7 @@ asset_api/
    postgresql://<user>:<password>@localhost:5432/<database_name>
    
 
-4. Run the API**
+4. Run the API
    bash
    uvicorn asset_api.main:app --reload
    
